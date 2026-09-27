@@ -1,16 +1,14 @@
 {
-  "folder-color": {
-    "id": "folder-color",
-    "name": "Folder Color Picker",
-    "description": "Ajoute un sélecteur de couleur dans le clic droit des folders Zen.",
-    "author": "custom",
-    "version": "1.0.0",
-    "style": { "chrome": "", "content": "" },
-    "scripts": {
-      "folderColor.uc.js": {
-        "include": ["chrome://browser/content/browser.xhtml"]
-      }
-    },
-    "enabled": true
+  "id": "folder-color",
+  "name": "Folder Color Picker",
+  "description": "Ajoute un sélecteur de couleur dans le clic droit des folders Zen.",
+  "author": "arcozzz",
+  "version": "1.0.0",
+  "homepage": "https://github.com/arcozzz/zen-folder-color",
+  "style": { "chrome": "", "content": "" },
+  "scripts": {
+    "folderColor.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"]
+    }
   }
 }
