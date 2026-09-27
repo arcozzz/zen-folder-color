@@ -1,1 +1,16 @@
-
+{
+  "folder-color": {
+    "id": "folder-color",
+    "name": "Folder Color Picker",
+    "description": "Ajoute un sélecteur de couleur dans le clic droit des folders Zen.",
+    "author": "custom",
+    "version": "1.0.0",
+    "style": { "chrome": "", "content": "" },
+    "scripts": {
+      "folderColor.uc.js": {
+        "include": ["chrome://browser/content/browser.xhtml"]
+      }
+    },
+    "enabled": true
+  }
+}
